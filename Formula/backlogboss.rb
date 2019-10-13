@@ -2,16 +2,16 @@
 class Backlogboss < Formula
   desc "A contextual task manager to help developers finish their side projects."
   homepage "https://backlogboss.xyz"
-  version "0.1.0"
+  version "0.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/backlogboss/backlogboss/releases/download/v0.1.0/backlogboss_0.1.0_Darwin_x86_64.tar.gz"
-    sha256 "72227de9b215fdde14746088d25926a160359426c2378cd8a441f84651787ead"
+    url "https://github.com/backlogboss/backlogboss/releases/download/v0.1.1/backlogboss_0.1.1_Darwin_x86_64.tar.gz"
+    sha256 "2316edfcfa95dcf7a0519f66596f65bcfadf5113851c89b5c782aa9a7ded39b4"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/backlogboss/backlogboss/releases/download/v0.1.0/backlogboss_0.1.0_Linux_x86_64.tar.gz"
-      sha256 "59b7cb8e7fbae06270961d76662cff1b30bcf9adf8a1e57c583a2f60806b7f5d"
+      url "https://github.com/backlogboss/backlogboss/releases/download/v0.1.1/backlogboss_0.1.1_Linux_x86_64.tar.gz"
+      sha256 "c41261f491524f78030d27a44fa2e036ffd46d990f904e84bc390349cf0584bf"
     end
   end
 
